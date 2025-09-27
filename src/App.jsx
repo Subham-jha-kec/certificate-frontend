@@ -62,7 +62,7 @@ function App() {
       // const response = await fetch(`https://certificate-backend-9ksc.onrender.com/distribute-files`, {
       // method: 'POST',
       // body: formData,
-       const response = await fetch(`https://certificate-backend-iota.vercel.app`, {
+       const response = await fetch(`https://certificate-backend-iota.vercel.app/`, {
       method: 'POST',
       body: formData,
 });
